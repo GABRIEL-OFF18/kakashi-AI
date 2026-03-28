@@ -9,7 +9,7 @@ global.pairing_code = true
 global.number_bot = ''
 global.prefa = '/'
 global.msgglobal = '[εггσг: *tყ℘εεггσг*] ʄεtɕɧ ʄศıɭεɖ'
-globalThis.dev = '☄︎ ℘σшεгεɖ ๖ყ ɱศɢıɕศɭı'
+globalThis.dev = '☄︎ POWERED BY LAYLA AI'
 
 global.api = {
   url: 'https://nex-magical.vercel.app',
