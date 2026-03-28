@@ -1,7 +1,7 @@
 import fs from 'fs';
 import chalk from 'chalk';
 
-global.owner = ['5355699866', '']
+global.owner = ['51941658192', '']
 
 global.sessionName = 'Sessions/Owner'
 global.version = '4.7'
@@ -23,7 +23,7 @@ global.bot = {
 }
 
 global.mods = [
-  '5355699866',
+  '51941658192',
   '595975677765'
 ]
 
