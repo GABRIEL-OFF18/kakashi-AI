@@ -11,7 +11,7 @@ export default {
   run: async (client, m, args) => {
     try {
       if (!args[0]) {
-        return m.reply('🌸 *Shizuka AI:*\n> Por favor, indícame qué video deseas visualizar.')
+        return m.reply('🌸 *Layla AI:*\n> Por favor, indícame qué video deseas visualizar.')
       }
 
       const query = args.join(' ')
@@ -35,7 +35,7 @@ export default {
       const vistas = (videoData.views || 0).toLocaleString()
       const canal = videoData.author?.name || 'YouTube'
 
-      let infoMessage = `✨ ── 𝒮𝒽𝒾𝓏𝓊𝓀𝒶 𝒜𝐼 ── ✨\n\n`
+      let infoMessage = `✨ ── Layla AI ── ✨\n\n`
       infoMessage += `🎬 *Tu video se está preparando*\n\n`
       infoMessage += `• 🏷️ *Título:* ${title}\n`
       infoMessage += `• 🎙️ *Canal:* ${canal}\n`
@@ -70,7 +70,7 @@ export default {
 
     } catch (e) {
       console.error(e)
-      await m.reply('🥀 *Shizuka AI:*\n> Ha ocurrido un error inesperado al procesar el video.')
+      await m.reply('🥀 *Layla AI:*\n> Ha ocurrido un error inesperado al procesar el video.')
     }
   }
 };
