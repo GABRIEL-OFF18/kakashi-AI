@@ -33,7 +33,7 @@ export default {
         canal = videoData.channel
         thumbBuffer = await getBuffer(videoData.imageUrl)
       } else {
-        const res = await fetch(`${api.url}/search/youtube?q=${encodeURIComponent(query)}&apikey=${api.key}`)
+      const res = await fetch(`/api/v1/descargas/youtube?apikey=causa-85295d46bf3d9c4b&url=https://www.youtube.com/watch?v=dQw4w9WgXcQ&type=video`)
         const json = await res.json()
 
         if (!json.status || !json.result || !json.result.length) {
