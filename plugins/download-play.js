@@ -26,7 +26,7 @@ export default {
       }
 
       // === OBTENER INFO Y DESCARGAR AUDIO ===
-      const apiBase = 'https://tu-api-base.com'; // ←←← CAMBIA ESTO POR TU URL BASE REAL
+      const apiBase = 'https://rest.apicausas.xyz/api/v1/descargas/youtube'; // ←←← CAMBIA ESTO POR TU URL BASE REAL
       const apikey = 'causa-85295d46bf3d9c4b';
 
       const res = await fetch(`\( {apiBase}/api/v1/descargas/youtube?apikey= \){apikey}&url=${encodeURIComponent(url)}&type=audio`);
