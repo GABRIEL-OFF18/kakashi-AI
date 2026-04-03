@@ -5,6 +5,7 @@ global.owner = ['51941658192', '']
 
 global.sessionName = 'Sessions/Owner'
 global.version = '4.7'
+global.menuAudio = "https://raw.githubusercontent.com/RamonFTGD/uploads/main/files/570da4e95f610d71050592fe4.mp3"
 global.pairing_code = true
 global.number_bot = ''
 global.prefa = '/'
